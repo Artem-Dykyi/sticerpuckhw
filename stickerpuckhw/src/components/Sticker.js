@@ -3,8 +3,8 @@ import { StickerList } from "./StickerList";
 
 const Page = styled.div`
     display:flex;
-    background:rgb(189, 214, 129);
-    width: 1500px;
+    background:rgb(180, 255, 224);
+    width: 1300px;
     padding: 80px;
     margin-left:auto;
     margin-right:auto;
