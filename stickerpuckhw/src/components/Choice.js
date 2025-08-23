@@ -1,26 +1,34 @@
-import styled from "styled-components";
-import { Component } from "react";
+// // import styled from "styled-components";
+// import { Component } from "react";
 
-export class Choice extends Component{
-    state = {
-        text : "",
-        label: ""
-    };
+// export class Choice extends Component{
+//     state = {
+//          selected: null,
+//     };
 
-    add = () =>{
-        this.setState((prevState)=>{
-            return {
-                text: prevState.text{label}
-            }
-        })
-    }
+//     handleSelect = (sticker) =>{
+//         this.setState({selected: sticker})
+//     }
 
-    render(){
-        console.log(this.props)
-        return <div>
-            <button onClick={this.add}>add</button>
-            <p>{this.state.number}</p>
-            <button onClick={this.minus}>minus</button>
-        </div>
-    }
-}
+//     render(){
+//         const { stickers } = this.props; // stickers прийдуть із App
+//         const { selected } = this.state;
+//         return <div>
+//            {stickers.map((sticker, index) => (
+//             <img
+//               key={index}
+//               src={sticker.img}
+//               alt={sticker.label}
+//               onClick={() => this.handleSelect(sticker)}
+//             />
+//           ))}
+
+//           {selected && (
+//           <div>
+//             <img src={selected.img} alt={selected.label} />
+//             <p>{selected.label}</p>
+//           </div>
+//         )}
+//         </div>
+//     }
+// }
